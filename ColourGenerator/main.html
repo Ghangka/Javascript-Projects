@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--specficying language-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title that appears on window tab-->
+    <title>Colour Flipper</title>
+    <!-- #(pound tag) used for ids-->
+    <!--apply a style to all tags of a specific type-->
+    <!--margin: space between 2 objects-->
+    <style>
+        #lightBlue{
+            background-color: lightblue;
+        }
+        #pink{
+            background-color: pink;
+        }
+        #violet{
+            background-color: violet;
+        }
+        button {
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!--content that will live on the page-->
+    <!--using an id tag to identify the elements-->
+    <!--id's should be unique, encolsed in "", no special characters or spaces-->
+    
+    <h3>Colour Flipper</h3>
+    <!--registering an event called onClick that links to JS funciton-->
+    <button id="lightBlue" onclick="setColour('lightblue')">Light Blue</button>
+    <button id="pink" onclick="setColour('pink')">Pink</button>
+    <button id="violet" onclick="setColour('violet')">Violet</button>
+    <button id="random" onclick="setRandomColour()">Random</button>
+    <!--linking our javascript file, can do this because they're in the same folder-->
+    <script src="index.js"></script>
+</body>
+</html>
