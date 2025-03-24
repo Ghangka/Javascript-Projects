@@ -1,3 +1,3 @@
 # Projects
 
-This repo contains small projects that I have been working on.
+This repo contains small javascript projects.
