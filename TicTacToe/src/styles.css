@@ -1,0 +1,40 @@
+.app {
+    color: #353C4E;
+    background: #F0F2F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .grid{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+  }
+  
+  .item{
+    display: flex;
+    border: black solid 1px;
+    justify-content: center;
+    align-items: center;
+  }
+  .message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .button{
+    width: 100px;
+    margin-top: 20px;
+  }
+  
